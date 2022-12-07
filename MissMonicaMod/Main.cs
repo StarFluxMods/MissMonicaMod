@@ -42,7 +42,7 @@ namespace MissMonicaMod
 		protected override void OnInitialise()
 		{
 #if WORKSHOP
-			bundle = AssetBundle.LoadFromFile(Path.Combine(ResourceUtils.FindModPath(Assembly.GetExecutingAssembly(), AssetBundleLocation.ModsFolder), "missmonicamod"));
+			bundle = AssetBundle.LoadFromFile(Path.Combine(ResourceUtils.FindModPath(Assembly.GetExecutingAssembly(), AssetBundleLocation.WorkshopFolder), "missmonicamod"));
 #endif
 #if !WORKSHOP
 			bundle = AssetBundle.LoadFromFile(Path.Combine(Application.streamingAssetsPath, "missmonicamod"));
