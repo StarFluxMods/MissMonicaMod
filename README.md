@@ -1,3 +1,7 @@
+# Archived
+
+MissMonica Mod is archived as the outfit has been included in [StreamerPack](https://github.com/StarFluxMods/StreamerPack)
+
 # MissMonica Mod
 
 ## Description
